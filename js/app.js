@@ -1,15 +1,12 @@
-let userName = prompt("what is your name ?")
-let userAge = prompt("how old are you ?")
+let userNumber = prompt("how old are you ?")
 
-if(userAge > 18) {
-    console.log("you are acceptable to get driving licence")
-}
-else if(userAge < 0){
-        console.log("you are acceptable to get driving licence")
+if(userNumber % 2 == 0){
+    console.log("ok")
 }
 else{
-    console.log("you are not acceptable to get driving licence")
+    console.log("no")
 }
+
 
 
 
