@@ -1,12 +1,30 @@
-let userNumber = prompt("how old are you ?")
+let userNumber = Number(prompt("Enter your first number : "))
+let userSecondNumber = prompt("")
+let userThirdNumber = Number(prompt("Enter your second number : "))
 
-if(userNumber % 2 == 0){
-    console.log("ok")
+switch (userSecondNumber) {
+    case "+" :
+        console.log(userNumber + userThirdNumber)
+        break;
+    case "-" :
+        console.log(userNumber - userThirdNumber)
+        break; 
+    case "*" :
+            console.log(userNumber * userThirdNumber)
+        break;
+    case "/" : 
+            console.log(userNumber / userThirdNumber)
+        break;
+    case "**" :
+            console.log(userNumber ** userThirdNumber)
+        break;
+    case "%" : 
+            console.log(userNumber % userThirdNumber)
+        break;
+    case "++" :
+            console.log(++userNumber)
+        break;
+    case "--" :
+            console.log(--userNumber)
+        break;
 }
-else{
-    console.log("no")
-}
-
-
-
-
