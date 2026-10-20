@@ -1,12 +1,18 @@
-let userNumber = prompt("enter your number")
+let greenButton = document.querySelector(".green")
+let blueButton = document.querySelector(".blue")
+let redButton = document.querySelector(".red")
 
-if (userNumber % 3 == 0 && userNumber % 5 == 0) {
-    console.log("fizzbazz")
+greenButton.addEventListener("click" , function() {
+    document.body.classList.add("clicked")
     
-}
-else if (userNumber % 3 == 0){
-    console.log("bazz")
-}
-else if (userNumber % 5 == 0){
-    console.log("fizz")
-}
+})
+
+blueButton.addEventListener("click" , function() {
+    document.body.classList.add("CLicked")
+    
+})
+
+redButton.addEventListener("click" , function() {
+    document.body.classList.add("Clicked")
+    
+})

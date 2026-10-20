@@ -1,0 +1,39 @@
+body.clicked{
+    background-color: #004D40;
+}
+body.CLicked{
+    background-color: #0D1B2A;
+}
+body.Clicked{
+    background-color: #8B0000;
+}
+.green{
+    width: 100px;
+    height: 40px;
+    background-color: #004D40;
+    border: solid 2px #A67C00;
+    border-radius: 20px;
+    color: #A67C00;
+}
+.blue{
+    width: 100px;
+    height: 40px;
+    background-color:#0D1B2A ;
+    border: solid 2px #A5F3FC;
+    border-radius: 20px;
+    color: #A5F3FC;
+} 
+.red{
+    width: 100px;
+    height: 40px;
+    background-color:#8B0000 ;
+    border: solid 2px #FFB6C1;
+    border-radius: 20px;
+    color: #FFB6C1;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+}
