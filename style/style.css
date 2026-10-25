@@ -1,3 +1,16 @@
+
+
+.oswald-uniquifier {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+    font-family: "oswald" , sans-serif;
+}
 body.clicked{
     background-color: #004D40;
 }
@@ -7,6 +20,9 @@ body.CLicked{
 body.Clicked{
     background-color: #8B0000;
 }
+body.ClIcked{
+    background-color: #A3C9A8;
+}
 .green{
     width: 100px;
     height: 40px;
@@ -14,6 +30,7 @@ body.Clicked{
     border: solid 2px #A67C00;
     border-radius: 20px;
     color: #A67C00;
+    font-family: "oswald" , sans-serif;
 }
 .blue{
     width: 100px;
@@ -22,6 +39,7 @@ body.Clicked{
     border: solid 2px #A5F3FC;
     border-radius: 20px;
     color: #A5F3FC;
+    font-family: "oswald" , sans-serif;
 } 
 .red{
     width: 100px;
@@ -30,10 +48,75 @@ body.Clicked{
     border: solid 2px #FFB6C1;
     border-radius: 20px;
     color: #FFB6C1;
+    font-family: "oswald" , sans-serif;
+}
+.lightgreen{
+    width: 100px;
+    height: 40px;
+    background-color:#A3C9A8 ;
+    border: solid 2px #004D40;
+    border-radius: 20px;
+    color: #004D40;
+    font-family: "oswald" , sans-serif;
 }
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 50px;
+    gap: 50px;
+    
+}
+.side{
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    right: -500px ;
+    top: 28px;
+    width: 225px;
+    height: 96.4vh;
+    background-color:rgb(15, 15, 15) ;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+}
+.button{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    right: 560px ;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+
+}
+.side.active{
+    right: 0;
+    transition: 0.3s;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+}
+.button.open{
+    background-color:rgb(15, 15, 15);
+    right: 125px;
+    transition: 0.3s;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    padding: 140px 20px;
+    list-style-type: none;
+    align-items: start;
+    gap: 40px;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    color: rgb(99, 96, 96);
 }
