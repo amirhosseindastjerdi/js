@@ -120,3 +120,48 @@ li{
     font-size: 20px;
     color: rgb(99, 96, 96);
 }
+.div2{
+    width: 400px;
+    height: 300px;
+    border: solid 2px gray;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    padding: 130px 0px;
+}
+.div2.amir{
+    background-color: #0D1B2A;
+    border: solid 2px #A5F3FC;
+}
+.div2.ali{
+    background-color: #004D40;
+    border: solid 2px #A67C00;
+}
+.div2.mmd{
+    background-color: #8B0000;
+    border: solid 2px #FFB6C1;
+}
+.div2.hossein{
+    background-color: #A3C9A8;
+    border: solid 2px #004D40;
+}
+.input{
+    width: 200px;
+    height: 20px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+.submit{
+    width: 80px;
+    height: 24px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
