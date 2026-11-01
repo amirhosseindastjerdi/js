@@ -137,7 +137,7 @@ section{
     justify-content: center;
     padding: 130px 0px;
 }
-.div2.amir{
+.div2.am{
     background-color: #0D1B2A;
     border: solid 2px #A5F3FC;
 }
@@ -164,4 +164,39 @@ section{
     height: 24px;
     border: solid 1px gray;
     border-radius: 5px;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 75px;
+    background: #292626;
+    width: 800px;
+    height: 650px;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 50px 100px;
+}
+input { 
+    width: 180px;
+    border-radius: 10px;
+    border: groove 5px #292626;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 50px;
+    background: #292626;
+    width: 350px;
+    height: 750px;
+    border: solid 1px ;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+h1{
+    color: rgb(128, 128, 128);
+}
+h2{
+    color: rgb(190, 190, 190);
 }
