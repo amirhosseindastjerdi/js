@@ -7,7 +7,7 @@
   font-style: normal;
 }
 body{
-    background-color: black;
+    background-color: #101418;
     overflow-x: hidden;
     font-family: "oswald" , sans-serif;
 }
@@ -74,7 +74,7 @@ body.ClIcked{
     top: 28px;
     width: 225px;
     height: 96.4vh;
-    background-color:rgb(15, 15, 15) ;
+    background-color:#20262B ;
 }
 .head{
     display: flex;
@@ -89,10 +89,11 @@ body.ClIcked{
     right: 560px ;
     border: none;
     border-radius: 20px;
-    background-color: black;
+    background-color: #101418;
 
 }
 .side.active{
+    height: 100vh;
     right: 0;
     transition: 0.3s;
     position: absolute;
@@ -100,7 +101,7 @@ body.ClIcked{
     height: 100vh;
 }
 .button.open{
-    background-color:rgb(15, 15, 15);
+    background-color:#20262B;
     right: 125px;
     transition: 0.3s;
 }
@@ -165,38 +166,148 @@ section{
     border: solid 1px gray;
     border-radius: 5px;
 }
-.form2{
+.formTwo{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    align-items: center;
     gap: 75px;
-    background: #292626;
-    width: 800px;
+    background: #20262B;
+    width: 550px;
     height: 650px;
-    border: solid 1px black;
+    border: solid 3px  #384047;
     border-radius: 15px;
     padding: 50px 100px;
+    box-shadow: 0 8px 35px #384047;
 }
 input { 
+    background-color: #101418;
+    height: 50px;
     width: 180px;
     border-radius: 10px;
-    border: groove 5px #292626;
+    border: groove 3px #384047;
+    color: #384047;
+    font-family: "oswald" , sans-serif;
+}
+.submit{
+    background-color: #101418;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    border: groove 3px #384047;
+    color: #384047;
+    font-family: "oswald" , sans-serif;
 }
 .info{
     display: flex;
     flex-direction: column;
     justify-content: start;
     gap: 50px;
-    background: #292626;
-    width: 350px;
+    background: #20262B;
+    width: 750px;
     height: 750px;
-    border: solid 1px ;
+    border: solid 3px #384047;
     border-radius: 15px;
     padding-left: 10px;
+    color: #384047;
+    box-shadow: 0 8px 35px #384047;
+    font-family: "oswald" , sans-serif;
 }
-h1{
-    color: rgb(128, 128, 128);
+
+label{
+    position: absolute;
+    top: 290px;
+    left: 650px;
+    color: #384047;
 }
-h2{
-    color: rgb(190, 190, 190);
+.agelabel{
+    position: absolute;
+    top: 390px;
+    left: 670px;
+}
+.userlabel{
+    position: absolute;
+    top: 490px;
+    left: 650px;
+}
+.passlabel{
+    position: absolute;
+    top: 590px;
+    left: 650px;
+}
+.addresslabel{
+    position: absolute;
+    top: 690px;
+    left: 650px;
+}
+.emaillabel{
+    position: absolute;
+    top: 790px;
+    left: 650px;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    box-shadow: 0 8px 35px #384047;
+    top: 2014px;
+    position: absolute;
+    align-self: center;
+    width: 150px;
+    height: 30px;
+    border: solid 2px #384047;
+    border-radius: 15px;
+    background-color: #101418;
+    color: #384047;
+    font-family: "oswald" , sans-serif;
+}
+.formTwo.amir{
+    background-color: #004D40;
+    border-color: #A67C00;
+    box-shadow: 0 8px 35px #A67C00;
+}
+.info.amiri{
+    background-color: #004D40;
+    border-color: #A67C00;
+    box-shadow: 0 8px 35px #A67C00;
+    color: #A67C00;
+}
+.btn.Amiri{
+    background-color: #004D40;
+    border-color: #A67C00;
+    box-shadow: 0 8px 35px #A67C00;
+    color: #A67C00;
+}
+input.AMiri{
+    background-color: #004D40;
+    border-color: #A67C00;
+    color: #A67C00;
+}
+input.mohamad{
+    background-color: #0D1B2A;
+    border-color: #A5F3FC;
+    color: #A5F3FC;
+}
+.btn.Mohamad{
+    background-color: #0D1B2A;
+    border-color: #A5F3FC;
+    box-shadow: 0 8px 35px #A5F3FC;
+    color: #A5F3FC;
+}
+.info.MOhamad{
+    background-color: #0D1B2A;
+    border-color: #A5F3FC;
+    box-shadow: 0 8px 35px #A5F3FC;
+    color: #A5F3FC;
+}
+.formTwo.MOHamad{
+    background-color: #0D1B2A;
+    border-color: #A5F3FC;
+    box-shadow: 0 8px 35px #A5F3FC;
+}
+.info.hide{
+    height: 0;
+}
+.btn.Active{
+    top: 1260px;
 }
